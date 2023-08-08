@@ -4,19 +4,19 @@ namespace NewApp.Models
     {
         public string FullName { get; set;}
         public string Address { get; set;}
-        public int Age { get; set;} 
+        public int Year { get; set;} 
         public void EnterData()
         {
-            System.Console.Write("Full name = ");
+            System.Console.Write("Ho va ten = ");
             FullName = Console.ReadLine();
-            System.Console.Write("Address = ");
+            System.Console.Write("Dia chi = ");
             Address = Console.ReadLine();
-            System.Console.Write("Age = ");
-            Age = Convert.ToInt16(Console.ReadLine());
+            System.Console.Write("Nam sinh = ");
+            Year = Convert.ToInt16(Console.ReadLine());
         }
         public void Display()
         {
-            System.Console.WriteLine("{0} - {1}", FullName, Address, Age);
+            System.Console.WriteLine("Thong tin vua nhap: {0} - {1} - {2}", FullName, Address, Year);
         }
     }  
 }
