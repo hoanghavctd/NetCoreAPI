@@ -3,13 +3,16 @@ public class Program
 { 
     private static void Main(string[] args)
     {
+        /*
         Person ps1 = new Person();
         ps1.EnterData();
         ps1.Display();
-        Person ps2 = new Person();
-        ps2.FullName = "Ho ten mac dinh";
-        ps2.Address = "Dia chi mac dinh";
-        ps2.Age = 33;
+        Employee ps2 = new Employee();
+        ps2.EnterData();
         ps2.Display();
+       */ 
+        Student ps3 = new Student();
+        ps3.EnterData();
+        ps3.Display();
     }
 }
