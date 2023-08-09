@@ -1,4 +1,4 @@
-﻿using NewApp.Models;
+﻿﻿using NewApp.Models;
 public class Program
 { 
     private static void Main(string[] args)
@@ -14,5 +14,7 @@ public class Program
         Student ps3 = new Student();
         ps3.EnterData();
         ps3.Display();
+        GiaiPhuongTrinh gpt = new GiaiPhuongTrinh();
+        gpt.GiaiPhuongTrinhB1();
     }
 }

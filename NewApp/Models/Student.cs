@@ -12,7 +12,7 @@ namespace NewApp.Models
             HT = Console.ReadLine();
             System.Console.Write("Dia chi = ");
             DC = Console.ReadLine();
-            System.Console.Write("Nam sinh = ");
+            System.Console.Write("Tuoi = ");
             T = Convert.ToInt16(Console.ReadLine());
             System.Console.Write("So dien thoai = ");
             SDT = Console.ReadLine();
@@ -21,5 +21,6 @@ namespace NewApp.Models
         {
             System.Console.WriteLine("Thong tin vua nhap: {0} - {1} - {2} - {3}", HT, DC, T, SDT);
         }
+
     }  
 }
